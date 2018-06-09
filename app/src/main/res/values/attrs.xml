@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HeadText">
+        <attr name="title_text" format="string"/>
+        <attr name="title_text_size" format="dimension"/>
+        <attr name="title_text_color" format="color"/>
+        <attr name="title_text_bg_color" format="color"/>
+
+        <attr name="left_btn" format="string"/>
+        <attr name="left_btn_size" format="dimension"/>
+        <attr name="left_btn_color" format="color"/>
+        <attr name="left_btn_bg_color" format="reference"/>
+
+        <attr name="right_btn" format="string"/>
+        <attr name="right_btn_size" format="dimension"/>
+        <attr name="right_btn_color" format="color"/>
+        <attr name="right_btn_bg_color" format="reference"/>
+    </declare-styleable>
+</resources>

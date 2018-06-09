@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.simulation_weekone.MainActivity">
+
+   <com.example.administrator.simulation_weekone.HeadText
+       app:title_text="这是我的activity"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:left_btn_bg_color="@drawable/headtext_color"
+       app:left_btn="左侧"
+       app:left_btn_color="#000000"
+       app:left_btn_size="12dp"
+       app:right_btn_bg_color="@drawable/headtext_color"
+       app:right_btn="右侧"
+       app:right_btn_color="#000000"
+       app:right_btn_size="12dp"
+       app:title_text_bg_color="@color/headtex_color_dd"
+       app:title_text_color="#000000"
+       />
+
+</LinearLayout>
